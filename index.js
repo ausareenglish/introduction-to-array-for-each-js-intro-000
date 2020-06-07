@@ -23,11 +23,12 @@
 
 function changeCompletely(element, index, array) {
   // Defines changeCompletely () function and its parameters-- element, index, and array.
-  // Sets array element to a different string, which
+  // Sets array element to a different string
+  // prefaced by a randomly generated number
   // the .forEach method will do to every item in the array
   // when the changeCompletely callback is passed to the array.forEach method. 
   
-  array[index] = `${element} is now different`;
+  array[index] =  Math.floor (Math.random(100)) + `${element}'s!!`;
   
   
   
